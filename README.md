@@ -1,2 +1,2 @@
 # CODSOFT
-This repository is for my virtual internship. I'll be uploading my internship tasks here :)
+I've been selected for a month-long virtual web development internship. I need to complete three tasks to complete the internship successfully. I've listed the tasks below:
