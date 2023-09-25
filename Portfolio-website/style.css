@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+  background: rgba(174, 129, 219, 0.9);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 70px;
+}
+
+nav h1 {
+  font-family: "Fuggles", cursive;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-right a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #000;
+  border-bottom: 1px solid transparent;
+  margin-bottom: -6px;
+}
+
+.nav-right a:hover {
+  border-bottom: 1px solid #000;
+}
+
+.about {
+  padding: 0 200px;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(174, 129, 219, 0.4);
+}
+
+.about img {
+  width: 300px;
+  border-radius: 50%;
+}
