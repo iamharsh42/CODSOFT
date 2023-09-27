@@ -128,7 +128,8 @@ nav h1 {
   margin-top: 20px;
 }
 
-.skills h1 {
+.skills h1,
+.projects h1 {
   font-size: 45px;
   font-weight: 300;
 }
@@ -183,4 +184,52 @@ nav h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.projects {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.vertical-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 390px;
+  border-radius: 15px;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  box-shadow: 0px 5px 4px 0px rgba(221, 221, 221, 0.25);
+  overflow: hidden;
+  margin: 30px 0px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 20px 7px;
+}
+
+.card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card h1 {
+  font-weight: 300;
+  color: #212121;
+}
+
+.card-bottom a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+}
+
+.card p {
+  text-align: left;
 }
