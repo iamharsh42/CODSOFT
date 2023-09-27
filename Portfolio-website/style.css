@@ -5,11 +5,17 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+  background: #edf2fc;
 }
 
 header {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
-  background: rgba(174, 129, 219, 0.4);
+  background: #fff;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -54,15 +60,19 @@ nav h1 {
   align-items: center;
   justify-content: space-between;
   background: #edf2fc;
+  margin-top: -20px;
 }
 
 .about img {
   width: 300px;
   border-radius: 50%;
+  box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan;
 }
 
 .about-right {
   margin-left: 100px;
+  margin-top: -35px;
 }
 
 .about-right h1 {
@@ -73,4 +83,91 @@ nav h1 {
 
 .about-right h1 span {
   color: #ff4321;
+}
+
+.about-right h4 {
+  color: #212121;
+  margin-top: -20px;
+}
+
+.about-bottom {
+  margin-top: 25px;
+}
+
+.about-bottom a {
+  text-decoration: none;
+  color: #212121;
+  font-size: 30px;
+  margin-right: 30px;
+  transition: all 0.4s ease-in;
+}
+
+.about button {
+  background: #212121;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: none;
+  margin-top: 20px;
+  transition: all 0.4s ease-in;
+}
+
+.about button:hover {
+  background: #ff4321;
+}
+
+.about-bottom a:hover {
+  color: #ff4321;
+}
+
+.skills {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.skills h1 {
+  font-size: 45px;
+  font-weight: 300;
+}
+
+.frontend {
+  width: 900px;
+  height: 230px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.frontend h2 {
+  display: inline-block;
+  background: rgba(137, 76, 230, 0.7);
+  padding: 10px 18px;
+  color: #fff;
+  font-weight: 600;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+.frontend img {
+  width: 60px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.icon {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: rgba(137, 76, 230, 0.2);
+  backdrop-filter: blur(15px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
