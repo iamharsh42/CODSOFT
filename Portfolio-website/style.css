@@ -14,7 +14,8 @@ body {
 }
 
 header {
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+  /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8); */
+  /* border-bottom: 1px solid #212121; */
   background: #fff;
   position: sticky;
   top: 0;
@@ -132,7 +133,11 @@ nav h1 {
   font-weight: 300;
 }
 
-.frontend {
+.frontend,
+.backend,
+.languages,
+.devops,
+.others {
   width: 900px;
   height: 230px;
   margin: 30px auto;
@@ -140,7 +145,11 @@ nav h1 {
   border-radius: 10px;
 }
 
-.frontend h2 {
+.frontend h2,
+.backend h2,
+.languages h2,
+.devops h2,
+.others h2 {
   display: inline-block;
   background: rgba(137, 76, 230, 0.7);
   padding: 10px 18px;
@@ -150,7 +159,11 @@ nav h1 {
   border-radius: 5px;
 }
 
-.frontend img {
+.frontend img,
+.backend img,
+.languages img,
+.devops img,
+.others img {
   width: 60px;
 }
 
