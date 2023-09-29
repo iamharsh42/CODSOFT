@@ -21,6 +21,7 @@
         </nav>
     </header>
     <section>
+        <div class="circle" id="circle"></div>
         <div class="content">
             <div class="text-box">
                 <h2>It's not just Coffee<br>It's <span>Starbucks</span></h2>
@@ -33,14 +34,14 @@
                     blanditiis. Deserunt sint quisquam, molestias at consequuntur commodi numquam!</p>
                 <a href="">LEARN MORE</a>
             </div>
-            <div class="imgage-box">
-                <img src="media/img1.png">
+            <div class="image-box">
+                <img src="media/img1.png" id="starbucks">
             </div>
         </div>
         <div class="thumbs">
-            <img src="media/thumb1.png">
-            <img src="media/thumb2.png">
-            <img src="media/thumb3.png">
+            <img src="media/thumb1.png" onclick="changeImage('img1.png', '#017143')">
+            <img src="media/thumb2.png" onclick="changeImage('img2.png', '#eb7495')">
+            <img src="media/thumb3.png" onclick="changeImage('img3.png', '#d752b1')">
         </div>
         <div class="social-links">
             <a href=""><img src="media/facebook.png"></a>
@@ -49,6 +50,7 @@
         </div>
 
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>

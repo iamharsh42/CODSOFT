@@ -7,8 +7,8 @@
 
 section {
   width: 75%;
-  margin: 10px auto;
-  position: relative;
+  margin: auto;
+  overflow: hidden;
 }
 
 nav {
@@ -71,7 +71,7 @@ header {
   letter-spacing: 1px;
 }
 
-.img-box {
+.image-box {
   width: 600px;
   display: flex;
   justify-content: flex-end;
@@ -79,7 +79,7 @@ header {
   margin-top: 50px;
 }
 
-.img-box img {
+.image-box img {
   max-width: 340px;
 }
 
@@ -114,4 +114,21 @@ header {
 
 .social-links img {
   transform: scale(0.6);
+}
+
+.circle {
+  background: #017143;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+  clip-path: circle(700px at right 800px);
+  /* transform: translateY(20%) translateX(40%); */
+  /* transform: translateX(50%); */
+}
+
+.social-links img {
+  filter: invert(1);
 }
